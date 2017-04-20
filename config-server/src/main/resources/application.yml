@@ -1,0 +1,15 @@
+server:
+  port: 8863
+
+spring:
+  application:
+    name: server-config
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/rutine/spring-cloud-config/
+          searchPaths: resources
+          username: rutine
+          password:
+      label: master
