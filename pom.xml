@@ -6,7 +6,7 @@
 
     <groupId>com.rutine</groupId>
     <artifactId>spring-cloud-learn</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>${learn.version}</version>
     <modules>
         <module>eureka-center</module>
         <module>eureka-server-hello</module>
@@ -30,6 +30,8 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <java.version>1.8</java.version>
+
+        <learn.version>1.0-SNAPSHOT</learn.version>
     </properties>
 
     <dependencyManagement>
