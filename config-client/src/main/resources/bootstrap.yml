@@ -6,6 +6,7 @@ spring:
     name: client-config
   cloud:
     config:
+      name: client-config
       uri: http://localhost:8863/
       label: master
       profile: dev

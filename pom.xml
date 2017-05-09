@@ -15,6 +15,8 @@
         <module>eureka-server-zuul</module>
         <module>config-server</module>
         <module>config-client</module>
+        <module>kafka-producer</module>
+        <module>kafka-consumer</module>
     </modules>
     <packaging>pom</packaging>
 
