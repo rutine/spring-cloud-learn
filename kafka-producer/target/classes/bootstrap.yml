@@ -1,0 +1,12 @@
+server:
+  port: 8874
+
+spring:
+  application:
+    name: kafka-producer
+  cloud:
+    config:
+      name: kafka-config
+      uri: http://localhost:8863/
+      label: master
+      profile: dev
